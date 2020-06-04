@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 
-public final class ConsoleProcessorIn implements InputProcessor {
+public final class InConsoleProcessor implements InProcessor {
 
     Scanner scanner;
 

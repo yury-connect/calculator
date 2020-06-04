@@ -5,7 +5,7 @@ import jm_program.github.io.enums.NumberSystem;
 import jm_program.github.io.logic.Converter;
 
 
-public abstract class AbstractProcessorOut {
+public abstract class OutAbstractProcessor {
 
     protected String prepareResult(Instance instance) {
         String result = (instance.getNumberSystem() == NumberSystem.ARABIC)

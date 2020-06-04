@@ -8,14 +8,15 @@ import jm_program.github.io.outputProcessors.*;
 
 /**
  * @author Yury Lapitskiy
- * Test task "Calculator"
+ * Test "Calculator"
+ * 2020-06-04
  */
 public class Runner {
 
     public static void main(String[] args) {
 
-        InputProcessor input = new ConsoleProcessorIn();
-        OutputProcessor output = new ConsoleProcessorOut();
+        InProcessor input = new InConsoleProcessor();
+        OutProcessor output = new OutConsoleProcessor();
 
         boolean executeProgram = true;
         try {

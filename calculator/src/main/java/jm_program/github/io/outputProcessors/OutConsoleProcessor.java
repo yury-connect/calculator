@@ -3,7 +3,7 @@ package jm_program.github.io.outputProcessors;
 import jm_program.github.io.beans.Instance;
 
 
-public final class ConsoleProcessorOut extends AbstractProcessorOut implements OutputProcessor{
+public final class OutConsoleProcessor extends OutAbstractProcessor implements OutProcessor {
 
     @Override
     public void outputInstance(Instance instance) {

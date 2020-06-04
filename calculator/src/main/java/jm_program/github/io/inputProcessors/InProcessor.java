@@ -1,7 +1,7 @@
 package jm_program.github.io.inputProcessors;
 
 
-public interface InputProcessor {
+public interface InProcessor {
 
     public String getData();
 
